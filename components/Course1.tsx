@@ -19,7 +19,7 @@ export default function Courses() {
                     <Box as="section" mt={["10px","20px","50px"]}mx={["10px","20px","50px"]}bg={"lightgrey"} maxW={"full"} height={["440px","180px"]} borderRadius={"2xl"}>
                         <Heading p={"10px"} fontSize={useBreakpointValue({base:"18px",md:"20px"})} textColor={"red.600"}>Quarter IV</Heading>
                         <Heading pl={"10px"} fontSize={useBreakpointValue({base:"22px",md:"24px"})}>Developing Planet-Scale Intelligent APIs and Python Programming</Heading>
-                        <Text px={"10px"}>We will start this course by understanding the fundamentals and use cases for AI and move on to building next-gen intelligent apps using OpenAIs powerful models and Next.js 13. We'll conclude the course by learning about basic programming concepts using Python. In this quarter we will also learn Git, the distributed version control system. We will also review Git-based GitHub services.</Text>
+                        <Text px={"10px"}>We will start this course by understanding the fundamentals and use cases for AI and move on to building next-gen intelligent apps using OpenAIs powerful models and Next.js 13. We will conclude the course by learning about basic programming concepts using Python. In this quarter we will also learn Git, the distributed version control system. We will also review Git-based GitHub services.</Text>
                     </Box>
                     <Box as="section" mt={["10px","20px","50px"]} mx={["10px","20px","50px"]} mb={"10px"}bg={"lightgrey"} maxW={"full"} height={["500px","370px","200px"]} borderRadius={"2xl"}>
                         <Heading p={"10px"} fontSize={useBreakpointValue({base:"18px",md:"20px"})} textColor={"red.600"}>Quarter V</Heading>
