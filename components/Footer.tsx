@@ -18,7 +18,8 @@ import {
     return (
       <Image
         height={20}
-        src ="https://www.panaverse.co/red-p-logo-text_dao_croped.png">
+        src ="https://www.panaverse.co/red-p-logo-text_dao_croped.png"
+        alt='Panaverse'>
       </Image>
     );
   };

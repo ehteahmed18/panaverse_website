@@ -24,7 +24,7 @@ export default function Courses() {
                     <Box as="section" mt={["10px","20px","50px"]}mx={["10px","20px","50px"]} mb={"10px"}bg={"lightgrey"} maxW={"1200px"} height={["380px","180px"]} borderRadius={"2xl"}>
                         <Heading p={"10px"} fontSize={useBreakpointValue({base:"18px",md:"20px"})} textColor={"red.600"}>Quarter V</Heading>
                         <Heading pl={"10px"}fontSize={useBreakpointValue({base:"22px",md:"24px"})}>Network Programmability and Automation</Heading>
-                        <Text px={"10px"}>Traditional network management techniques can't be effectively automated and don't scale well. By implementing network programmability based on Application Programming Interfaces, this course will assist in overcoming issues of the future and help you develop the skills required for the Next-Generation Network Engineer.</Text>
+                        <Text px={"10px"}>Traditional network management techniques cannott be effectively automated and cannot scale well. By implementing network programmability based on Application Programming Interfaces, this course will assist in overcoming issues of the future and help you develop the skills required for the Next-Generation Network Engineer.</Text>
                     </Box>
                 </Flex>
                 <Footer/>
