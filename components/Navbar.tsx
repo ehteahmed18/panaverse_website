@@ -95,7 +95,7 @@ export default function Navbar() {
         {isOpen ? (
           <Box pb={4} display={{ md: 'none' }} bg="lightgrey">
             <Stack >
-            <Button2 bg="lightgrey" href="./course">Home</Button2>
+            <Button2 bg="lightgrey" href="./">Home</Button2>
             <Button2 bg="lightgrey" href="./course">Course</Button2>
             <Button2 bg="lightgrey" href="./course">About Us</Button2>
             </Stack>
