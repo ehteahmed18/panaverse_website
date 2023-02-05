@@ -37,16 +37,17 @@ export default function Main2() {
         'url(./images2.jpg)'
       }
       backgroundSize={'cover'}
-      backgroundPosition={'center center'}>
+      backgroundPosition={'center center'}
+      align="center">
       <VStack
       as="section"
         w={'full'}
-        margin={'auto'}
+       
         textAlign="center"
         px={useBreakpointValue({ base: '4', md: '8' })}
         // bgGradient={'linear(to-r, blackAlpha.600, transparent)'}
-        >
-        <Stack  align={'flex-start'} spacing={6}>
+        > 
+        <Stack   spacing={6} >
           <Text
             color={'white'}
             fontWeight={700}
@@ -71,13 +72,14 @@ export default function Main2() {
               _hover={{ bg: 'blue.500' }}>
               Apply
             </Button2>
-            <Button
+            <Button2
+            href="#"
               bg={'whiteAlpha.300'}
               rounded={'full'}
               color={'white'}
               _hover={{ bg: 'whiteAlpha.500' }}>
               Visit PIAIC
-            </Button>
+            </Button2>
           </Stack>
         </Stack>
       </VStack>
