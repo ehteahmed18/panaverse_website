@@ -8,6 +8,8 @@ import {
   VStack,
   useBreakpointValue,
   StackProps,
+  HStack,
+  Container
 } from '@chakra-ui/react';
 import Link from 'next/link';
 
@@ -63,13 +65,14 @@ export default function Main2() {
             A One and Quarter Years Panaverse DAO Earn as you Learn Program<br></br>
             Getting Ready for the Next Generation of the Internet<br></br>Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI), Cloud, Edge, Ambient Computing/IoT, Network Automation, and Bioinformatics Technologies 
           </Text>
-          <Stack direction={'row'} >
+          <HStack direction={'row'} >
             <Button2
             href="https://portal.piaic.org/"
               bg={'blue.400'}
               rounded={'full'}
               color={'white'}
-              _hover={{ bg: 'blue.500' }}>
+              _hover={{ bg: 'blue.500' }}
+              m="auto">
               Apply
             </Button2>
             <Button2
@@ -80,7 +83,7 @@ export default function Main2() {
               _hover={{ bg: 'whiteAlpha.500' }}>
               Visit PIAIC
             </Button2>
-          </Stack>
+          </HStack>
         </Stack>
       </VStack>
     </Flex>

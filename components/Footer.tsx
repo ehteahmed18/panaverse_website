@@ -11,7 +11,7 @@ import {
     VisuallyHidden,
     Image
   } from '@chakra-ui/react';
-  import { FaGithub, FaTwitter, FaYoutube } from 'react-icons/fa';
+  import { FaGithub, FaTwitter, FaYoutube,FaFacebook } from 'react-icons/fa';
   import { ReactNode } from 'react';
   
   const Logo = (props: any) => {
@@ -91,14 +91,17 @@ export default function Footer() {
             justify={{ base: 'center', md: 'center' }}
             align={{ base: 'center', md: 'center' }}>
             <Stack direction={'row'} spacing={6}>
-              <SocialButton label={'Twitter'} href={'#'}>
+              <SocialButton label={'Twitter'} href={'https://twitter.com/Panaverse_edu '}>
                 <FaTwitter />
               </SocialButton>
-              <SocialButton label={'YouTube'} href={'#'}>
+              <SocialButton label={'YouTube'} href={'https://www.youtube.com/@panaverse/streams '}>
                 <FaYoutube />
               </SocialButton>
-              <SocialButton label={'Github'} href={'#'}>
+              <SocialButton label={'Github'} href={' https://github.com/panaverse'}>
                 <FaGithub/>
+              </SocialButton>
+              <SocialButton label={'Github'} href={'https://www.facebook.com/groups/panaverse '}>
+                <FaFacebook/>
               </SocialButton>
             </Stack>
           </Container>

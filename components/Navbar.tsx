@@ -16,9 +16,10 @@ import {
   useColorModeValue,
   StackProps,
   Stack,
-  Image
+  Image,
+  useColorMode
 } from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
+import { HamburgerIcon, CloseIcon, AddIcon, MoonIcon, SunIcon } from '@chakra-ui/icons';
 import Link from 'next/link';
 
 interface FeatureProps extends StackProps {
@@ -55,6 +56,7 @@ const Link1 = 'Dashboard';
 
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const { colorMode, toggleColorMode } = useColorMode()
 
   return (
     <>
@@ -77,7 +79,7 @@ export default function Navbar() {
               _hover={{bg:"red.400",textColor:"white"}} >Home</Button2>
               <Button2 href="./course" bg="red.100"
               _hover={{bg:"red.400",textColor:"white"}} >Course</Button2>
-              <Button2 href="./course" bg="red.100"
+              <Button2 href="./about" bg="red.100"
               _hover={{bg:"red.400",textColor:"white"}} >About Us</Button2>
             </HStack>
           </HStack>
@@ -89,6 +91,9 @@ export default function Navbar() {
               _hover={{bg:"red.400",textColor:"white"}}>
               Apply
             </Button2>
+            {/* <Button onClick={toggleColorMode}>
+                {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+              </Button> */}
           </Flex>
         </Flex>
 
@@ -97,7 +102,7 @@ export default function Navbar() {
             <Stack >
             <Button2 bg="lightgrey" href="./">Home</Button2>
             <Button2 bg="lightgrey" href="./course">Course</Button2>
-            <Button2 bg="lightgrey" href="./course">About Us</Button2>
+            <Button2 bg="lightgrey" href="./about">About Us</Button2>
             </Stack>
           </Box>
         ) : null}

@@ -5,6 +5,7 @@ import Navbar from "./Navbar"
 import Quarter from "./Quarters"
 import Footer from "./Footer"
 import { Box, Text, Heading, StackProps, HStack, Flex,useBreakpointValue } from "@chakra-ui/react"
+import Link from "next/link"
 
 export default function Courses() {
     return (
@@ -18,12 +19,16 @@ export default function Courses() {
                 <Quarter/>
                     <Box as="section"mt={["10px","20px","50px"]}mx={["10px","20px","50px"]}bg={"lightgrey"} maxW={"1200px"} height={["250px","130px"]} borderRadius={"2xl"}>
                         <Heading p={"10px"} fontSize={useBreakpointValue({base:"18px",md:"20px"})} textColor={"red.600"}>Quarter IV</Heading>
+                        <Link href="#">
                         <Heading pl={"10px"}fontSize={useBreakpointValue({base:"22px",md:"24px"})}>Genomics and Bioinformatics Specialization</Heading>
+                        </Link>
                         <Text px={"10px"}>This course will focus on learning the basics of the Python programming language through genomics examples. </Text>
                     </Box>
                     <Box as="section" mt={["10px","20px","50px"]}mx={["10px","20px","50px"]} mb={"10px"}bg={"lightgrey"} maxW={"1200px"} height={["260px","160px"]} borderRadius={"2xl"}>
                         <Heading p={"10px"} fontSize={useBreakpointValue({base:"18px",md:"20px"})} textColor={"red.600"}>Quarter V</Heading>
+                        <Link href="#">
                         <Heading pl={"10px"}fontSize={useBreakpointValue({base:"22px",md:"24px"})}>Bioinformatics with Python</Heading>
+                        </Link>
                         <Text px={"10px"}>In this course we will discover modern, next-generation sequencing libraries from the powerful Python ecosystem to perform cutting-edge research and analyze large amounts of biological data.</Text>
                     </Box>
                 </Flex>

@@ -1,10 +1,10 @@
 'use client'
 
-import { Box, Text, Heading, Flex,useBreakpointValue } from "@chakra-ui/react"
+import { Box, Text, Heading, Flex,useBreakpointValue,keyframes} from "@chakra-ui/react"
 import { redirect } from "next/dist/server/api-utils"
 import React from "react"
 
-export default function Program() {
+export default function Program(){
     return (
             <Flex direction="column" maxW="full" textAlign={"center"} bg="red.100" m={useBreakpointValue({base:"4",md:"8"})} borderRadius="20px">
                 <Heading pt={["10px","10px","20px"]} fontSize={useBreakpointValue({ base: '3xl', md: '5xl' })}>The Program in a Nutshell: Earn While You Learn</Heading>
