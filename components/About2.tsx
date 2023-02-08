@@ -81,7 +81,7 @@ import Link from 'next/link';
             </Text>
           </Heading>
           <Text color={'gray.500'} maxW={'full'}>
-          In this brand-new type of curriculum, students will learn how to make money and boost exports in the classroom and will begin doing so within six months of the program's beginning. It resembles a cross between a corporate venture and an educational project.
+          In this brand-new type of curriculum, students will learn how to make money and boost exports in the classroom and will begin doing so within six months of the programs beginning. It resembles a cross between a corporate venture and an educational project.
           </Text>
         </Stack>
           <Stack
