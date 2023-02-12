@@ -1,0 +1,41 @@
+.about{
+    animation: slide 3s  ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+    from{
+        transform: translateY(100px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+.rotate{
+    animation: rotate;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate('0')
+    }
+    to{
+        transform: rotate('360deg');
+    }
+}
+
+.fadeinimage { animation: fadeIn 3s ease-in-out ; }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.box{
+    transition: transform 1s ease ;
+}
+
+.box:hover{
+    transform: scale(0.9);
+}

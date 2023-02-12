@@ -58,7 +58,7 @@ import {
 export default function Footer() {
     return (
       <Box
-        bg={useColorModeValue('gray.50', 'gray.900')}
+        bg="blackAlpha.300"
         color={useColorModeValue('gray.700', 'gray.200')}
         borderTop="1px"
         borderColor={"chakra-border-color"}>

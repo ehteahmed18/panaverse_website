@@ -60,7 +60,7 @@ export default function Navbar() {
 
   return (
     <>
-      <Box bg={['lightgrey','red.100','red.100']} px={4}>
+      <Box bg={'lightgrey'} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
@@ -75,11 +75,11 @@ export default function Navbar() {
               as={'nav'}
               spacing={4}
               display={{ base: 'none', md: 'flex' }}>
-              <Button2 href="./" bg="red.100"
+              <Button2 href="./" bg="lightgrey"
               _hover={{bg:"red.400",textColor:"white"}} >Home</Button2>
-              <Button2 href="./course" bg="red.100"
+              <Button2 href="./course" bg="lightgrey"
               _hover={{bg:"red.400",textColor:"white"}} >Course</Button2>
-              <Button2 href="./about" bg="red.100"
+              <Button2 href="./about" bg="lightgrey"
               _hover={{bg:"red.400",textColor:"white"}} >About Us</Button2>
             </HStack>
           </HStack>
@@ -87,7 +87,7 @@ export default function Navbar() {
             <Button2
             href="https://portal.piaic.org/"
               mr={4}
-              bg={['lightgrey','red.100','red.100']}
+              bg={'lightgrey'}
               _hover={{bg:"red.400",textColor:"white"}}>
               Apply
             </Button2>
