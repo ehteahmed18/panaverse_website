@@ -51,7 +51,7 @@ import styles from "./About.module.css"
             lineHeight={'100%'}>
             What is{' '}
             <Text as={'span'} color={'red.400'}>
-              Panaverse Dao
+              Panaverse Dao ?
             </Text>
           </Heading>
           <Text color={'gray.500'} maxW={'full'} className={styles.fadeinimage}>
@@ -117,11 +117,10 @@ import styles from "./About.module.css"
             fontWeight={600}
             fontSize={{ base: '3xl', sm: '4xl', md: '5xl' }}
             lineHeight={'80%'}>
-                <Text as={'span'} color={'red.400'}>
-              Our{' '} 
-            </Text> 
-            Faculty
-            
+              Our{' '}
+              <Text as={'span'} color={'red.400'}>
+              Faculty
+            </Text>  
           </Heading>
       <Box textAlign={'center'}>
         <Avatar

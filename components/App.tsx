@@ -7,6 +7,7 @@ import Main2 from "./Main2"
 import About from "./About"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
+import Program2 from "./Program2"
 
 
 export default function App(){
@@ -14,8 +15,9 @@ export default function App(){
         <div>
             <Navbar/>
             <Main2/>
-            <Program/>
+            <Program2/>
             <Course/>
+            <Program/>
             <About/>
             <Footer/>
         </div>

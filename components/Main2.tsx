@@ -37,19 +37,21 @@ export default function Main2() {
   return (
     <Flex
       w={'full'}
-      h={'full'}
-      // backgroundImage={
-      //   'url(./images2.jpg)'
-      // }
-      // backgroundSize={'cover'}
-      // backgroundPosition={'center center'}
+      h={'60vh'}
+      backgroundImage={
+        'url(https://t3.ftcdn.net/jpg/04/17/16/68/360_F_417166838_CKnZyAVxQ7c5xkMX1b18W61CFg8ope7r.jpg)'
+      }
+      opacity="0.9"
+      backgroundSize={'cover'}
+      backgroundPosition={'center center'}
       align="center"
-      direction={useBreakpointValue({base:"column",sm:"column",md:'column',lg:"row",xl:"row"})}
+      // direction={useBreakpointValue({base:"column",sm:"column",md:'column',lg:"row",xl:"row"})}
       py="100px"
+      // bg="gray.100"
       >
-      <VStack
+      <VStack className={styles.main}
       as="section"
-        w={'full'}
+        w={['100%','100%','100%','60%']}
         
         // textAlign="center"
         px={useBreakpointValue({ base: '4', md: '8' })}
@@ -57,14 +59,14 @@ export default function Main2() {
         > 
         <Stack   spacing={6} >
           <Text
-            color={'black'}
+            color={'white'}
             fontWeight={700}
             lineHeight={1.2}
             fontSize={useBreakpointValue({ base: '2xl',sm:"3xl", md: '4xl' })}>
             Become A Certified Web 3.0 and Metaverse Developer
           </Text>
           <Text
-          color={'black'}
+          color={'white'}
           fontWeight={400}
           lineHeight={1.0}
           fontSize={useBreakpointValue({ base: '1xl', md: '2xl' })}>
@@ -91,7 +93,7 @@ export default function Main2() {
           </HStack>
         </Stack>
       </VStack>
-      <Image className={styles.fadeinimage} src='images.jpg' p={useBreakpointValue({base:"10px",sm:"20px",md:"30px"})} w={useBreakpointValue({base:"300px",sm:"400px",md:"500px",lg:"700px",xl:"800px"})} shadow={'0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)'} />
+      {/* <Image className={styles.fadeinimage} src='images.jpg' p={useBreakpointValue({base:"10px",sm:"20px",md:"30px"})} w={useBreakpointValue({base:"300px",sm:"400px",md:"500px",lg:"700px",xl:"800px"})}  /> */}
     </Flex>
   );
 }

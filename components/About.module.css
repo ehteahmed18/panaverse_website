@@ -11,6 +11,33 @@
         transform: translateY(0px);
     }
 }
+.main{
+    animation: slideInLeft 3s  ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-200px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+.mains{
+    animation: slideInRight 3s  ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideInRight{
+    from{
+        transform: translateX(200px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
 .rotate{
     animation: rotate;
     animation-timing-function: linear;
@@ -38,4 +65,16 @@
 
 .box:hover{
     transform: scale(0.9);
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(10px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+.reveal:active{
+    transform: translateY(0);
+    opacity: 1;
 }
