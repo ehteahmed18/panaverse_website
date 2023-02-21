@@ -44,7 +44,7 @@ export default function Courses() {
                         <Link href="#">
                         <Heading fontSize={useBreakpointValue({base:"20px",md:"23px"})} pt="10px">AI-351: Developing Planet-Scale Intelligent APIs and Python Programming</Heading>
                         </Link>
-                        <Text pt={"10px"} fontSize={{base:"14px",md:"17px"}}>We will start this course by understanding the fundamentals and use cases for AI and move on to building next-gen intelligent apps using OpenAIs powerful models and Next.js 13. We'll conclude the course by learning about basic programming concepts using Python, such as lists, dictionaries, classes, functions, and loops, and practice writing clean and readable code with exercises for each topic. In this quarter we will also learn Git, the distributed version control system. We will also review Git-based GitHub services.</Text>
+                        <Text pt={"10px"} fontSize={{base:"14px",md:"17px"}}>We will start this course by understanding the fundamentals and use cases for AI and move on to building next-gen intelligent apps using OpenAIs powerful models and Next.js 13. We&#39ll conclude the course by learning about basic programming concepts using Python, such as lists, dictionaries, classes, functions, and loops, and practice writing clean and readable code with exercises for each topic. In this quarter we will also learn Git, the distributed version control system. We will also review Git-based GitHub services.</Text>
                     </Box>
                 </HStack>
                 <HStack m={useBreakpointValue({base:"10px",sm:"15px",md:"20px"})} justifyContent="center">
