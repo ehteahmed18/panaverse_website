@@ -39,12 +39,12 @@ function Button2(props: FeatureProps) {
             md: 'repeat(4, 1fr)',
           }}
           gap={6}>
-          <GridItem w="100%" colSpan={{ base: 1, sm: 2, md: 2 }}>
+          <GridItem  colSpan={{ base: 1, sm: 2, md: 2 }} border="2px" w="93%" p="20px" borderRadius={"3xl"} m="auto" bgColor={"gray.100"}>
             <Heading as={'h2'}>About Us</Heading>
             <Text pt="10px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque numquam porro placeat fugiat quas illo deserunt eligendi cupiditate rem ratione modi at nisi repellat molestiae esse, inventore eius eos. Veniam?</Text>
             <Button2 rounded="full"mt="10px" href="./about" _hover={{bg:"red.400",textColor:"white"}}>Read More</Button2>
           </GridItem>
-          <GridItem w="100%" mt="30px">
+          <GridItem m={{base:"10px",md:"auto"}}>
             <Flex flexDirection={'column'} borderLeft={"2px"} borderColor={"red.600"}>
               <Text pl="10px" fontSize={'3xl'} fontWeight={'bold'}>
                 3500+
@@ -52,7 +52,7 @@ function Button2(props: FeatureProps) {
               <Text pl="10px"> DAO Members</Text>
             </Flex>
           </GridItem>
-          <GridItem w="100%" mt={"30px"}>
+          <GridItem m={{base:"10px",md:"auto"}}>
           <Flex flexDirection={'column'} borderLeft={"2px"} borderColor={"red.600"}>
               <Text pl="10px" fontSize={'3xl'} fontWeight={'bold'}>
                 4

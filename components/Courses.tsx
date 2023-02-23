@@ -28,7 +28,7 @@ export default function Course(){
     return(
         <>
         <Box className={styles.fadeinimage} borderTop={"1px"} borderTopColor={"chakra-border-color"} margin={"auto"} textAlign={"center"}>
-            <Box p={"30px"} margin={"auto"} textAlign={"center"} mt={"20px"} mb={"40px"} border="2px" borderRadius={"2xl"} w="30%" bgColor={"gray.100"} >
+            <Box p={"30px"} margin={"auto"} textAlign={"center"} mt={"20px"} mb={"40px"} border="2px" borderRadius={"2xl"} w={{base:"80%",md:"50%",lg:"40px"}} bgColor={"gray.100"} >
                 <Heading  >Courses <span style={{ color: "red" }}>We</span>  Offer</Heading>
             </Box>
         </Box>
