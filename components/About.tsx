@@ -39,7 +39,13 @@ function Button2(props: FeatureProps) {
             md: 'repeat(4, 1fr)',
           }}
           gap={6}>
-          <GridItem  colSpan={{ base: 1, sm: 2, md: 2 }} border="2px" w="93%" p="20px" borderRadius={"3xl"} m="auto" bgColor={"gray.100"}>
+          <GridItem  colSpan={{ base: 1, sm: 2, md: 2 }} border="2px" w="93%" p="20px" borderRadius={"3xl"} m="auto" bgColor={"gray.100"}
+          backgroundImage={
+            'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg_SPseuab46WV7tzxnRbPhzgKl4W23s6Olw&usqp=CAU)'
+          }
+          opacity="0.9"
+          backgroundSize={'cover'}
+          backgroundPosition={'center center'}>
             <Heading as={'h2'}>About Us</Heading>
             <Text pt="10px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque numquam porro placeat fugiat quas illo deserunt eligendi cupiditate rem ratione modi at nisi repellat molestiae esse, inventore eius eos. Veniam?</Text>
             <Button2 rounded="full"mt="10px" href="./about" _hover={{bg:"red.400",textColor:"white"}}>Read More</Button2>
