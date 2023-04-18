@@ -26,15 +26,16 @@ function Button2(props: FeatureProps) {
 
 export default function Course(){
     return(
-        <>
-        <Box className={styles.fadeinimage} borderTop={"1px"} borderTopColor={"chakra-border-color"} margin={"auto"} textAlign={"center"}>
-            <Box p={"30px"} margin={"auto"} textAlign={"center"} mt={"20px"} mb={"40px"} border="2px" borderRadius={"2xl"} w={{base:"80%",md:"50%",lg:"40px"}} bgColor={"gray.100"} >
+        <div id="courses">
+        <Box  className={styles.fadeinimage} borderTop={"1px"} borderTopColor={"chakra-border-color"} margin={"auto"} textAlign={"center"}>
+            <Box p={"30px"} margin={"auto"} textAlign={"center"} mt={"20px"} mb={"40px"} border="2px" borderRadius={"2xl"} w={{base:"80%",md:"50%",lg:"40%"}} bgColor={"gray.100"} >
                 <Heading  >Courses <span style={{ color: "red" }}>We</span>  Offer</Heading>
             </Box>
         </Box>
         <Box className={styles.fadeinimage} pl="10px" pr="10px">
         <Heading mt="50px" textAlign={"left"}>Core Courses (Common in All Specializations):</Heading>
         <Text textAlign={"left"} mt="20px" fontSize={"20px"} mb="20px" >Every participant of the program will start by completing the following three core courses:</Text>
+        <Text textAlign={"left"} mt="20px" fontSize={"20px"} mb="20px" >(Note: Click on the Boxes for Further Details)</Text>
         </Box>
         <Quarter/>
         <Box className={styles.fadeinimage} pl="10px" pr="10px">
@@ -101,6 +102,6 @@ export default function Course(){
                 </HStack>
             </Flex>
         </Box>
-        </>
+        </div>
     )
 }

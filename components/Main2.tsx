@@ -37,7 +37,7 @@ export default function Main2() {
   return (
     <Flex
       w={'full'}
-      h={'60vh'}
+      h={'full'}
       backgroundImage={
         'url(https://t3.ftcdn.net/jpg/04/17/16/68/360_F_417166838_CKnZyAVxQ7c5xkMX1b18W61CFg8ope7r.jpg)'
       }

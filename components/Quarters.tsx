@@ -30,7 +30,7 @@ export default function Quarter() {
             <Box className={styles.about}>
                 <Flex flexWrap={"wrap"} justifyContent={"center"}  >
                     <HStack m={useBreakpointValue({ base: "10px", sm: "15px", md: "20px" })} justifyContent="center">
-                        <Box as="a" href="https://google.com" className={styles.box} width={useBreakpointValue({ base: "300px", sm: "300px", md: "650px", lg: "700px", xl: "600px" })} height={useBreakpointValue({ base: "520px", md: "330px", lg: "330px", xl: "380px" })} bg={"gray.50"} p={"30px"} borderRadius={"3xl"} border="2px" boxShadow="xl"
+                        <Box as="a" href="./course/quarter1" className={styles.box} width={useBreakpointValue({ base: "300px", sm: "300px", md: "650px", lg: "700px", xl: "600px" })} height={useBreakpointValue({ base: "520px", md: "330px", lg: "330px", xl: "380px" })} bg={"gray.50"} p={"30px"} borderRadius={"3xl"} border="2px" boxShadow="xl"
                             textAlign="center" cursor={"pointer"} >
                             <Heading color={"red.600"}>Quarter I (Core)</Heading>
                             <Heading fontSize={useBreakpointValue({ base: "20px", md: "21px" })} pt="30px">CS-101: Object-Oriented Programming using TypeScript</Heading>
@@ -38,7 +38,7 @@ export default function Quarter() {
                         </Box>
                     </HStack>
                     <HStack m={useBreakpointValue({ base: "10px", sm: "15px", md: "20px" })} justifyContent="center">
-                        <Box as="a" href="https://google.com" className={styles.box} width={useBreakpointValue({ base: "300px", sm: "300px", md: "650px", lg: "700px", xl: "600px" })} height={useBreakpointValue({ base: "720px", md: "370px", lg: "370px", xl: "380px" })} bg={"gray.50"} p={"30px"} borderRadius={"3xl"} border="2px" boxShadow={'0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)'}
+                        <Box as="a" href="./course/quarter2" className={styles.box} width={useBreakpointValue({ base: "300px", sm: "300px", md: "650px", lg: "700px", xl: "600px" })} height={useBreakpointValue({ base: "720px", md: "370px", lg: "370px", xl: "380px" })} bg={"gray.50"} p={"30px"} borderRadius={"3xl"} border="2px" boxShadow={'0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)'}
                             textAlign="center" cursor={"pointer"}>
                             <Heading color={"red.600"}>Quarter II (Core)</Heading>
                             <Heading fontSize={useBreakpointValue({ base: "20px", md: "21px" })} pt="10px">W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform</Heading>
@@ -47,7 +47,7 @@ export default function Quarter() {
                         </Box>
                     </HStack>
                     <HStack m={useBreakpointValue({ base: "10px", sm: "15px", md: "20px" })} justifyContent="center">
-                        <Box as="a" href="https://google.com" className={styles.box} width={useBreakpointValue({ base: "300px", sm: "300px", md: "650px", lg: "700px", xl: "600px" })} height={useBreakpointValue({ base: "400px", md: "300px", lg: "300px", xl: "380px" })} bg={"gray.50"} p={"30px"} borderRadius={"3xl"} border="2px" boxShadow={'0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)'}
+                        <Box as="a" href="./course/quarter3" className={styles.box} width={useBreakpointValue({ base: "300px", sm: "300px", md: "650px", lg: "700px", xl: "600px" })} height={useBreakpointValue({ base: "400px", md: "300px", lg: "300px", xl: "380px" })} bg={"gray.50"} p={"30px"} borderRadius={"3xl"} border="2px" boxShadow={'0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04)'}
                             textAlign="center" cursor={"pointer"}>
                             <Heading color={"red.600"}>Quarter III (Core)</Heading>
                             <Heading fontSize={useBreakpointValue({ base: "20px", md: "21px" })} pt="20px">$-101: Dollar Making Bootcamp - Full-Stack Template and API Product Development</Heading>

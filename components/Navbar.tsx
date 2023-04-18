@@ -60,7 +60,7 @@ export default function Navbar() {
 
   return (
     <>
-      <Box bg={'lightgray'} px={4}>
+      <Box bg={'lightgray'} px={4} >
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
@@ -101,7 +101,7 @@ export default function Navbar() {
           <Box pb={4} display={{ md: 'none' }} bg="lightgrey">
             <Stack >
             <Button2 bg="lightgrey" href="/">Home</Button2>
-            <Button2 bg="lightgrey" href="./course">Course</Button2>
+            <Button2 bg="lightgrey" href="#courses">Course</Button2>
             <Button2 bg="lightgrey" href="./about">About Us</Button2>
             </Stack>
           </Box>
